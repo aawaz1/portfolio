@@ -31,29 +31,29 @@ function LatestWork() {
         </div>
         {/* First box */}
         <div className='h-96 w-96 sm:w-[48%] lg:h-64 m-auto rounded-lg flex flex-col lg:flex-row lg:pt-2 mb-16 sm:mb-4 ' >
-            <a href='https://lucky-you-tube-clone.netlify.app/' className='h-[60%] w-full lg:h-60 lg:w-[80%] m-auto' >
+            <a target='_blank' href='' className='h-[60%] w-full lg:h-60 lg:w-[80%] m-auto' >
               <img className='project h-[92%] w-11/12 m-auto duration-300 rounded-lg ' src={project1} />
             </a>
           <div className='h-[40%] w-full lg:w-1/2 pl-4 lg:pl-2' >
             <h1 className='text-base font-semibold pb-1' >Social Media App</h1>
             <p>This project is a Social Media Website built using Next.js, Tailwind CSS, and Neon for database. It features a sleek, user-friendly, and fully responsive design.</p>
             <div className='flex justify-start items-center my-2' >
-              <a href='https://github.com/aawaz1/socially' className='h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 btn rounded-full' >View Code</a>
-              <a href='https://socially-587q.vercel.app/' className='h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 btn ml-2 rounded-full' >View Live</a>
+              <a target='_blank' href='https://github.com/aawaz1/socially' className='h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 btn rounded-full' >View Code</a>
+              <a target='_blank' href='https://socially-587q.vercel.app/' className='h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 btn ml-2 rounded-full' >View Live</a>
             </div>
           </div>
         </div>
         {/* Second box */}
         <div className='h-96 w-96 sm:w-[48%] lg:h-64 m-auto rounded-lg flex flex-col lg:flex-row lg:pt-2 mb-8 sm:mb-4 ' >
-          <a href='https://expense-tracker-inreact.netlify.app/' className='h-[60%] w-full lg:h-60 lg:w-[80%] m-auto' >
+          <a href='' className='h-[60%] w-full lg:h-60 lg:w-[80%] m-auto' >
             <img className='project h-[92%] w-11/12 m-auto duration-300 rounded-lg ' src={project2} />
           </a>
           <div className='h-[40%]  w-full lg:w-1/2 pl-4 lg:pl-2' >
             <h1 className='text-base font-semibold pb-1' >Code Editor</h1>
             <p>This is a responsive Expense Tracker built with Next.js and Tailwind CSS for easy expense management and for backend i used Convex and for auth i used Clerk.</p>
             <div className='flex justify-start items-center my-2' >
-              <a href='https://github.com/aawaz1/code-mate' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 rounded-full' >View Code</a>
-              <a href='https://c0de-mate.vercel.app/' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 ml-2 rounded-full' >View Live</a>
+              <a target='_blank' href='https://github.com/aawaz1/code-mate' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 rounded-full' >View Code</a>
+              <a target='_blank' href='https://c0de-mate.vercel.app/' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 ml-2 rounded-full' >View Live</a>
             </div>
           </div>
         </div>
