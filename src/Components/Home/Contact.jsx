@@ -11,7 +11,7 @@ function Contact() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "08f8765f-73dd-4744-bbd5-6acfca14dee3");
+    formData.append("access_key", "79dbce74-62e8-474a-a5bd-cc5e6b3404cb");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -26,7 +26,8 @@ function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      toast.success('Message sent successfully', { pauseOnHover: false, theme: 'dark' })
+      toast.success('Message sent successfully', { pauseOnHover: false, theme: 'dark' });
+      event.target.reset();
     }
   };
 
