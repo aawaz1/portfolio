@@ -25,7 +25,7 @@ function LatestWork() {
             <p>50KB Image Compressor, your go-to solution for reducing image size quickly and efficiently! Many online forms, including government and job applications, require images under 50KB, which can be a hassle when your file is too large.</p>
             <div className='flex justify-start items-center my-2' >
               <a href='https://github.com/aawaz1/picshrinkback' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 rounded-full' >View Code</a>
-              <a href='https://www.picshrink50.store/' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 ml-2 rounded-full' >View Live</a>
+              <a target='_blank'  href='https://www.picshrink50.store' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 ml-2 rounded-full' >View Live</a>
             </div>
           </div>
         </div>
