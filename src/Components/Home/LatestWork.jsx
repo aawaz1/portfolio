@@ -50,7 +50,7 @@ function LatestWork() {
           </a>
           <div className='h-[40%]  w-full lg:w-1/2 pl-4 lg:pl-2' >
             <h1 className='text-base font-semibold pb-1' >Code Editor</h1>
-            <p>This is a responsive Expense Tracker built with Next.js and Tailwind CSS for easy expense management and for backend i used Convex and for auth i used Clerk.</p>
+            <p>This is a responsive Code Editor  built with Next.js and Tailwind CSS for easy expense management and for backend i used Convex and for auth i used Clerk.</p>
             <div className='flex justify-start items-center my-2' >
               <a target='_blank' href='https://github.com/aawaz1/code-mate' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 rounded-full' >View Code</a>
               <a target='_blank' href='https://c0de-mate.vercel.app/' className='btn h-8 w-24 pt-1.5 text-sm text-center bg-purple-700 ml-2 rounded-full' >View Live</a>
