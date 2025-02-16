@@ -19,7 +19,15 @@ function About() {
 </h1>
 
 
-      {/* Services */}
+      {/* Work Experience */}
+        {/* <div className='h-96 w-96 sm:w-[48%] border border-white lg:h-64 m-auto rounded-lg flex flex-col justify-center items-center lg:flex-row  mb-16 sm:mb-4 ' >
+                 
+                <div className='h-[40%] w-full lg:w-1/2 pl-4 lg:pl-2' >
+                  <h1 className='text-base font-semibold pb-1' >Social Media App</h1>
+                  <p>This project is a Social Media Website built using Next.js, Tailwind CSS, and Neon for database. It features a sleek, user-friendly, and fully responsive design.</p>
+                 
+                </div>
+              </div> */}
       
     </div>
   )
