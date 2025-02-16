@@ -20,23 +20,7 @@ function About() {
 
 
       {/* Services */}
-      <div className='min-h-60 w-full lg:w-11/12 m-auto flex flex-wrap justify-around items-center' >
-        <div className='h-48 w-72 sm:h-56 lg:h-52 lg:w-72 cursor-pointer my-4 lg:my-0 mx-4 sm:mx-0 box duration-300 rounded-lg shadow-xl shadow-gray-900 ' >
-          <BiCodeBlock className='text-4xl md:text-5xl pt-4 rounded-full m-auto' />
-          <h1 className='text-lg md:text-xl text-center font-semibold py-2' >Web Development</h1>
-          <p className='text-xs sm:text-sm px-1 text-gray-400 text-center' >Creative web developer skilled in React.js, JavaScript, HTML, CSS, Tailwind CSS, and Bootstrap, crafting dynamic, responsive, and user-friendly websites.</p>
-        </div>
-        <div className='h-48 w-72 sm:h-56 lg:h-52 lg:w-72 cursor-pointer my-4 lg:my-0 mx-4 sm:mx-0 box duration-300 rounded-lg shadow-xl shadow-gray-800 ' >
-          <BiCoinStack className='text-4xl md:text-5xl pt-4 rounded-full m-auto' />
-          <h1 className='text-lg md:text-xl text-center font-semibold py-2' >Web Design</h1>
-          <p className='text-xs sm:text-sm px-1 text-gray-400 text-center' >Skilled web designer with expertise in HTML, CSS, TailwindCSS, and Bootstrap, creating clean, attractive, and user-friendly website designs.</p>
-        </div>
-        <div className='h-48 w-72 sm:h-56 lg:h-52 lg:w-72 cursor-pointer my-4 lg:my-0 mx-4 sm:mx-0 box duration-300 rounded-lg shadow-xl shadow-gray-900 ' >
-          <BiSolidBookContent className='text-4xl md:text-5xl pt-4 rounded-full m-auto' />
-          <h1 className='text-lg md:text-xl text-center font-semibold py-2' >Content Writing</h1>
-          <p className='text-xs sm:text-sm px-1 text-gray-400 text-center' >Experienced content writer creating clear, engaging, and SEO-friendly text to boost audience interest and brand visibility.</p>
-        </div>
-      </div>
+      
     </div>
   )
 }
